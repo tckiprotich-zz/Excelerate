@@ -42,7 +42,7 @@ namespace NetworkAPI.Services
             try
             {
                 CompletionRequest completionRequest = new CompletionRequest();
-                completionRequest.Prompt = $"Hello, I am {newConnection.Intro}, and I saw a job listing for {newConnection.TargetTitle} at {newConnection.TargetCompany}. I am interested in networking and would like to connect with you to learn more about the position and gain insights into the industry. Thank you for considering my request." + "\n\n" + "Intro: ";
+                completionRequest.Prompt = $"Hello, I am {newConnection.Intro}, and I saw a job listing for {newConnection.TargetTitle} at {newConnection.TargetCompany}. I am interested in networking and would like to connect with you to learn more about the position and gain insights into the industry. Thank you for considering my request." + "\n\n" + "Always generate a new message for sending mesage to target connection for consideration for the listed job ";
                 completionRequest.Model = Model.DavinciText;
                 completionRequest.MaxTokens = 1024;
                 completionRequest.Temperature = 0.7;

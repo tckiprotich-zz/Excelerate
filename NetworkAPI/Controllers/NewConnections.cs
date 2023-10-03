@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace NetworkAPI.Controllers
 {
@@ -18,7 +19,7 @@ namespace NetworkAPI.Controllers
             _newConnection = newConnection;
         }
 
-        [HttpPost]
+        [HttpPost, Authorize]
 [Route("new-connection")]
 public async Task<IActionResult> CreateConnection([FromBody] NetworkModel newConnection)
 {
