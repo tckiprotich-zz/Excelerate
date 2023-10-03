@@ -1,6 +1,11 @@
 @NetworkAPI_HostAddress = http://localhost:5112
 
-GET {{NetworkAPI_HostAddress}}/weatherforecast/
+POST  {{NetworkAPI_HostAddress}}/api/new-connection
 Accept: application/json
+Content-Type: application/json
 
-###
+{
+  "targetTitle": "engineer",
+  "targetCompany": "github",
+  "intro": "devops engineer"
+}
