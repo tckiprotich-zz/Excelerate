@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "e+b3bqO0X6sW0hZ2d3CFEb4ljzBuhw5yW1RaXSsErAlriLEkghbOuOe2vsrlb1LN0Vjw/Dgc4gJyma0F3CoWug==",
+  "success": true,
+  "projectFilePath": "/home/azureuser/IPHURTS/Excelerate/Excelerate/src/Core/Excelerate.Application/Excelerate.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/azureuser/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
